@@ -1,0 +1,8 @@
+#Today I have troubles on importing matminer into Python 3.7 on Mac Os.
+# First Error is "no matching distribution found for matminer"
+# the problem is the version of pip require upgrade. The code is "easy_install --upgrade pip"
+# Second Error is "python Could not build wheels for spglib, which is required to install pyproject.toml-based projects"
+some packages are missing before the deployment of documentations: libldap2-dev libsasl2-dev
+however, homebrew is needed for Mac. It is impossible to connect  http://raw.githubusercontent.com 
+so I use a mirror site: usr/bin/ruby -e "$(curl -fsSL https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/install)"
+Then I can "brew install libldap2-dev libsasl2-dev"
